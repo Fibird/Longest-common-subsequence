@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1474898696 source:e:\codeblocks\longest-common-subsequence\longest_common_subsequence\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+
