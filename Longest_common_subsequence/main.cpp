@@ -33,17 +33,19 @@ int main()
 
     LCSlength(m, n, str1, str2, seq_lengths, paths);
 
-    for (int i = 0; i < m; i++)
+    /*for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
             cout << seq_lengths[i][j] << "\t";
         }
         cout << "\n";
-    }
-
+    }*/
+    cout << "The length of longest common sequence is: " << seq_lengths[m - 1][n - 1] << endl;
     // print the longest common sequence
+    cout << "One of the longest common sequence is: ";
     LCSseq(m - 1, n - 1, str1, paths);
+    cout << "\n";
 
     return 0;
 }
